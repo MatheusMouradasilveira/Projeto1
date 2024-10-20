@@ -1,0 +1,12 @@
+{
+    "Medicamento":
+    [
+        {
+            "id": 1,
+            "nome": "Trembolona",
+            "fabricante": "Growth",
+            "preco": 200,
+            "quantidade": 1
+        }
+    ]
+}

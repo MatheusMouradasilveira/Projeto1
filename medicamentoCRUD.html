@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicamento</title>
+</head>
+<body>
+    <h1> Formulário de Cadastro de Medicamento: </h1>
+
+    <form id="medicine-form">
+        <label for="id"> ID: </label>
+        <input type="number" id="id" required>
+
+        <label for="name"> Nome: </label>
+        <input type="text" id="name" required>
+
+        <label for="manufacturer"> Fabricante: </label>
+        <input type="text" id="manufacturer" required>
+
+        <label for="price"> Preço: </label>
+        <input type="number" id="price" required>
+
+        <label for="amount"> Quantidade: </label>
+        <input type="number" id="amount" required>
+
+        <button type="submit"> Cadastrar Medicamento </button>
+    </form>
+
+    <h1> Lista de Medicamentos </h1>
+    <ul id="medicine-list"></ul>
+    <script src="scriptMedicine.js"></script>
+</body>
+</html>

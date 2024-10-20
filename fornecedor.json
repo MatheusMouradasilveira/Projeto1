@@ -1,0 +1,29 @@
+{
+  "Fornecedor": [
+    {
+      "id": 1,
+      "nome": "Growth",
+      "endereco": "São Leopoldo",
+      "telefone": "(51) 5556565"
+    },
+    {
+      "id": 2,
+      "nome": "Landerlan",
+      "endereco": "São Paulo",
+      "email": "agnar@gmail.com",
+      "telefone": "(51) 034343343"
+    },
+    {
+      "id": 3,
+      "nome": "Gold",
+      "endereco": "Tilamoia 945",
+      "telefone": "(54) 03993493943"
+    },
+    {
+      "id": 4,
+      "nome": "Anavar",
+      "endereco": "Moriah 234",
+      "telefone": "(11)3434343)"
+    }
+  ]
+}

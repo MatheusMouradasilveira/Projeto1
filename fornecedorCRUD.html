@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedor</title>
+</head>
+<body>
+    <h1> Formulário de Cadastro de Fornecedor: </h1>
+
+    <form id="supplier-form">
+        <label for="id"> ID: </label>
+        <input type="number" id="id" required>
+
+        <label for="name"> Nome: </label>
+        <input type="text" id="name" required>
+
+        <label for="adress"> Endereço: </label>
+        <input type="text" id="adress" required>
+
+        <label for="telephone"> Telefone: </label>
+        <input type="text" id="telephone" required>
+
+        <button type="submit"> Cadastrar Fornecedor </button>
+    </form>
+
+    <h1> Lista de Fornecedor </h1>
+    <ul id="supplier-list"></ul>
+    <script src="scriptSupplier.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "Cliente": [
+    {
+      "id": 1,
+      "nome": "Tobias",
+      "endereco": "Texas",
+      "email": "Magnar@gmail.com",
+      "telefone": "(51) 98320-3899"
+    },
+    {
+      "id": 2,
+      "nome": "cleber",
+      "endereco": "rua da conceição",
+      "email": "urubudopix.com",
+      "telefone": "11 123123123"
+    },
+    {
+      "id": 3,
+      "nome": "Hober",
+      "endereco": "tendril",
+      "email": "340330403403@.com",
+      "telefone": "23232322"
+    },
+    {
+      "id": 4,
+      "nome": "teste",
+      "endereco": "teste",
+      "email": "teste",
+      "telefone": "teste"
+    }
+  ]
+}

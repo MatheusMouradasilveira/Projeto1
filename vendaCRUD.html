@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda</title>
+</head>
+<body>
+    <h1> Formulário de Cadastro de Venda: </h1>
+
+    <form id="sale-form">
+        <label for="id"> ID: </label>
+        <input type="number" id="id" required>
+
+        <label for="date"> Data: </label>
+        <input type="text" id="date" required>
+
+        <label for="id_medicine"> ID de Medicamento: </label>
+        <input type="number" id="id_medicine" required>
+
+        <label for="id_customer"> ID de Cliente: </label>
+        <input type="number" id="id_customer" required>
+
+        <button type="submit"> Cadastrar Venda </button>
+    </form>
+
+    <h1> Lista de Vendas </h1>
+    <ul id="sale-list"></ul>
+    <script src="scriptSale.js"></script>
+</body>
+</html>
